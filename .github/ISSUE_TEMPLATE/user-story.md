@@ -1,6 +1,6 @@
 ---
-name: user-story
-about: template for write well-formatted user stories for ZenHub kanban board
+name: user story
+about: template for write user stories for ZenHub kanban board
 title: ''
 labels: ''
 assignees: ''
