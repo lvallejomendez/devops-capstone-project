@@ -37,7 +37,7 @@ push: ## Push image to K3d registry
 
 venv: ## Create a Python virtual environment
 	$(info Creating Python 3 virtual environment...)
-	python3.9 -m venv ~/venv
+	python3 -m venv ~/venv
 
 install: ## Install Python dependencies
 	$(info Installing dependencies...)
