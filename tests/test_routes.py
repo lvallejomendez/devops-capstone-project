@@ -12,7 +12,7 @@ from tests.factories import AccountFactory
 from service.common import status  # HTTP Status Codes
 from service.models import db, Account, init_db
 from service.routes import app
-from flask import Flask, jsonify, request
+from flask import Flask, jsonify, request, make_response, abort, url_for
 from service import talisman
 
 DATABASE_URI = os.getenv(
