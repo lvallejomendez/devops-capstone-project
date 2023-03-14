@@ -7,13 +7,12 @@ Test cases can be run with the following:
 """
 import os
 import logging
-import request
 from unittest import TestCase
 from tests.factories import AccountFactory
 from service.common import status  # HTTP Status Codes
 from service.models import db, Account, init_db
 from service.routes import app
-from flask import Flask, jsonify
+from flask import Flask, jsonify, request
 from service import talisman
 
 DATABASE_URI = os.getenv(
